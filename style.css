@@ -25,7 +25,24 @@
 }
 
 .principal__descripcion{
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	justify-items: center;
+	align-items: center;
+}
 
+.pasos{
+	background-color: #3aa1ff;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	justify-items: center;
+
+}
+
+.pasos__numero{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
 }
 
 .pie__redes{
