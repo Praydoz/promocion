@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Mulish', sans-serif;
+	color: #fff;
+}
+
+.cabecera, .pie{
+	background-color: #122231;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	justify-items: center;
+}
+
+.principal{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	background-image: url('fondoPraydoz.png');
+	background-size: 100%;
+	align-items: center;
+	justify-items: center;
+}
+
+.principal__descripcion{
+
+}
+
+.pie__redes{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
