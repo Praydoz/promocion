@@ -39,7 +39,7 @@
 
 .contador__caja{
 	padding: 50px;
-	background-color: red;
+	background-color: blue;
 	width: 80%;
 	margin: 0 auto;
 	display: grid;
@@ -72,6 +72,12 @@
 
 	.cabecera{
 		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.principal{
+		display: flex;
+		flex-direction: column-reverse;
+		background-size: contain;
 	}
 
 	/*.principal__imagen{
