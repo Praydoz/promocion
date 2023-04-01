@@ -39,26 +39,46 @@
 
 .contador__caja{
 	padding: 50px;
-	background-color: blue;
+	background-color: #2e7bc1;
 	width: 80%;
 	margin: 0 auto;
 	display: grid;
-	grid-template-rows: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 	justify-items: center;
+	align-items: center;
 }
 
 .pasos{
 	background-color: #3aa1ff;
 	display: grid;
-	grid-template-rows: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 	justify-items: center;
 	padding: 25px;
+	text-align: center;
 }
 
 .pasos__numero{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	justify-items: center;
+	align-items: center;
+	text-align: center;
+}
+
+.pasos__numero-paso{
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+}
+
+.pasos__numero-numeral{
+	background-color: #122231; 
+	border-radius: 100%; 
+	padding: 20px 25px;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .pie__redes{
@@ -70,18 +90,12 @@
 
 	.cabecera__fecha{ display:none; }
 
-	.cabecera{
-		grid-template-columns: repeat(2, 1fr);
-	}
+	.cabecera{ grid-template-columns: repeat(2, 1fr); }
 
 	.principal{
 		display: flex;
 		flex-direction: column-reverse;
 		background-size: contain;
 	}
-
-	/*.principal__imagen{
-		width: 100%;
-	}*/
 
 }
